@@ -80,6 +80,17 @@ dropDown.anchorView = view // UIView or UIBarButtonItem
 dropDown.dataSource = ["Car", "Motorcycle", "Truck"]
 ```
 
+Show Searchbar at top DropDown
+```swift
+let dropDown = DropDown(searchable: true)
+
+// The view to which the drop down will appear on
+dropDown.anchorView = view // UIView or UIBarButtonItem
+
+// The list of items to display. Can be changed dynamically
+dropDown.dataSource = ["Car", "Motorcycle", "Truck"]
+```
+
 Optional properties:
 
 ```swift
