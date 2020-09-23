@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Kevin Hirsch. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 //MARK: - Constraints
@@ -55,3 +56,4 @@ internal extension UIWindow {
 	}
 	
 }
+#endif

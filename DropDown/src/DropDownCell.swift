@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Kevin Hirsch. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 open class DropDownCell: UITableViewCell {
@@ -72,3 +73,4 @@ extension DropDownCell {
 	}
 	
 }
+#endif

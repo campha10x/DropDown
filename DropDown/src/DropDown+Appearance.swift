@@ -6,6 +6,7 @@
 //  Copyright © 2016 Kevin Hirsch. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 extension DropDown {
@@ -29,3 +30,4 @@ extension DropDown {
 	}
 
 }
+#endif

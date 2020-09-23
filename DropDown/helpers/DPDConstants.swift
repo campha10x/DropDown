@@ -5,7 +5,7 @@
 //  Created by Kevin Hirsch on 28/07/15.
 //  Copyright (c) 2015 Kevin Hirsch. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 internal struct DPDConstant {
@@ -55,3 +55,4 @@ internal struct DPDConstant {
 	}
 
 }
+#endif
