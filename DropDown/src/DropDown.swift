@@ -84,7 +84,7 @@ public final class DropDown: UIView {
     fileprivate let tableViewContainer = UIView()
     fileprivate let tableView = UITableView()
     fileprivate var templateCell: DropDownCell!
-    public let tfSearch = UITextField()
+    open let tfSearch = UITextField()
     fileprivate let lineView = UIView()
     fileprivate lazy var arrowIndication: UIImageView = {
         UIGraphicsBeginImageContextWithOptions(CGSize(width: 20, height: 10), false, 0)
